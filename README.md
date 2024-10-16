@@ -23,17 +23,17 @@ Evaluate the accessibility of public transport in Moscow, especially for people 
 
 ## Stages of the project:  
                
-1. Data collection   
-    • Parsing of data on routes, schedules and public transport stops (API of the city, OSM).  
-    • Parsing passenger feedback on transport accessibility (social networks, feedback platforms).  
-    • Collecting geodata on the location of stops and infrastructure facilities for people with disabilities.  
+## 1. Data collection   
+   • Parsing of data on routes, schedules and public transport stops (API of the city, OSM).  
+   • Parsing passenger feedback on transport accessibility (social networks, feedback platforms).  
+   • Collecting geodata on the location of stops and infrastructure facilities for people with disabilities.  
 
 Tools:  
     • Moscow API (Transport API, OpenStreetMap API)  
     • Parsing: Python (BeautifulSoup, Scrapy)  
     • Database: PostgreSQL for storing data on routes, stops and reviews.   
 
-2. Generation of text and features  
+## 2. Generation of text and features  
 • Generation of features based on reviews using NLP (tonality analysis, highlighting problematic topics).  
     • Generation of photos of stops and routes using computer vision (according to the queries "accessibility for people with disabilities").  
     • Tokenization and text processing of reviews to create categories of problems and suggestions.  
@@ -43,45 +43,45 @@ Tools:
     • CV: OpenCV for analyzing photo stops (classification by accessibility)  
 • Features: Pandas, NumPy for creating data tables.    
 
-3. Uploading data to Yandex.Toloka  
-    • Preparation of instructions for assessors to evaluate photos of stops for accessibility.  
-    • Creation of a golden dataset and a honeypot to verify the accuracy of the assessors' work.  
-    • Uploading data to Yandex Toloka to mark up images and check texts for compliance with a given topic.  
+## 3. Uploading data to Yandex.Toloka  
+   • Preparation of instructions for assessors to evaluate photos of stops for accessibility.  
+   • Creation of a golden dataset and a honeypot to verify the accuracy of the assessors' work.  
+   • Uploading data to Yandex Toloka to mark up images and check texts for compliance with a given topic.  
 
 Tools:  
     • API Toloka  
     • Data preparation: Pandas, JSON  
     • Golden Dataset and Honeypot: manual configuration on the Toloka platform    
 
-4. AB testing  
-    • Conducting AB-testing, in which the instructions for assessors will be changed for different groups.  
-    • Analysis of the result of AB tests based on the quality of the markup (in terms of accuracy and speed of execution).  
+## 4. AB testing  
+   • Conducting AB-testing, in which the instructions for assessors will be changed for different groups.  
+   • Analysis of the result of AB tests based on the quality of the markup (in terms of accuracy and speed of execution).  
 
 Tools:  
-    • AB-tests: Python (SciPy, Statsmodels)  
-    • Metrics: Precision, Recall, F1-Score  
+   • AB-tests: Python (SciPy, Statsmodels)  
+   • Metrics: Precision, Recall, F1-Score  
 
-5. Prediction by marking assessors  
-    • Using NLP to analyze text reviews, predicting tonality and subject matter.  
-    • Classification of images based on the marking of assessors (accessibility of stops, transport hubs).  
-    • Clustering of stops by problem areas and places with high availability.  
+## 5. Prediction by marking assessors  
+  • Using NLP to analyze text reviews, predicting tonality and subject matter.  
+  • Classification of images based on the marking of assessors (accessibility of stops, transport hubs).  
+  • Clustering of stops by problem areas and places with high availability.  
 
 Tools:  
     • NLP: Transformers (BERT, RoBERTa)  
     • ML models: Scikit-learn, TensorFlow (CNN for image analysis)  
     • Clustering: KMeans, DBSCAN  
                
-6. Building a dashboard  
-    • Data visualization: transport accessibility by area, problem points (heatmaps), routes, recommendations.  
-    • Display of the analysis results on an interactive map.  
+## 6. Building a dashboard  
+   • Data visualization: transport accessibility by area, problem points (heatmaps), routes, recommendations.  
+   • Display of the analysis results on an interactive map.  
 
 Tools:  
     • Visualization: Apache Superset, Power BI, Plotly Dash  
     • Map: Folium, Mapbox  
 
-7. Creating an ETL process and DWH  
-    • Creation of an ETL process for automatic updating of data from transport APIs and social networks.  
-    • Building DWH to store historical data and prepare data marts for analysis.  
+## 7. Creating an ETL process and DWH  
+   • Creation of an ETL process for automatic updating of data from transport APIs and social networks.  
+   • Building DWH to store historical data and prepare data marts for analysis.  
 
 Tools:  
     • ETL: Apache Airflow for process automation  
