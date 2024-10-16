@@ -2,8 +2,8 @@
 # Analysis of public transport accessibility 
 
 ## Project team:  
-- Nikolai Allenov
-- 
+- Nikolai Allenov - Data Engineer (Data collection, Creating an ETL process and DWH)
+- Dmitry Verkhovtsev - 
 
 
 ## The purpose of the project  
@@ -39,9 +39,9 @@ Tools:
     • Database: PostgreSQL for storing data on routes, stops and reviews.   
 
 ## 2. Generation of text and features  
-• Generation of features based on reviews using NLP (tonality analysis, highlighting problematic topics).  
-    • Generation of photos of stops and routes using computer vision (according to the queries "accessibility for people with disabilities").  
-    • Tokenization and text processing of reviews to create categories of problems and suggestions.  
+   • Generation of features based on reviews using NLP (tonality analysis, highlighting problematic topics).  
+   • Generation of photos of stops and routes using computer vision (according to the queries "accessibility for people with disabilities").  
+   • Tokenization and text processing of reviews to create categories of problems and suggestions.  
 
 Tools:  
     • NLP: Python (spaCy, NLTK, Transformers)  
@@ -108,7 +108,12 @@ Tools:
 
 
 # Contacts:  
-## Nikolai Allenov
-- Email: AllenovNS@gmail.com
-- Telegram: https://t.me/NickAllenov
+## Nikolai Allenov  
+- Email: AllenovNS@gmail.com  
+- Telegram: https://t.me/NickAllenov  
 - Linkedin: https://linkedin.com/in/nickallenov-de
+
+## Dmitry Verkhovtsev  
+- Email: dimitry.verkhovtsev@gmail.com  
+- Telegram: https://t.me/Gantt_bar  
+- Linkedin:   
