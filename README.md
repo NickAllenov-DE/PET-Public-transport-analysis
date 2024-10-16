@@ -1,6 +1,11 @@
 # PET-Project:   
 # Analysis of public transport accessibility 
 
+## Project team:  
+- Nikolai Allenov
+- 
+
+
 ## The purpose of the project  
 Evaluate the accessibility of public transport in Moscow, especially for people with disabilities, identify problems in the infrastructure and offer recommendations for improvement.  
 
@@ -100,3 +105,10 @@ Tools:
    • Orchestration: Apache Airflow  
    • Dashboards and visualization: Power BI, Apache Superset, Plotly, Folium  
    • DevOps: Docker for containerization, GitHub Actions for CI/CD. Perhaps Kubernetes?  
+
+
+# Contacts:  
+## Nikolai Allenov
+- Email: AllenovNS@gmail.com
+- Telegram: https://t.me/NickAllenov
+- Linkedin: https://linkedin.com/in/nickallenov-de
