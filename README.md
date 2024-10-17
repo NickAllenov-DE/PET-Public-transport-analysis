@@ -108,12 +108,12 @@ Tools:
 
 
 # Contacts:  
-## Nikolai Allenov  
+### Nikolai Allenov  
 - Email: AllenovNS@gmail.com  
 - Telegram: https://t.me/NickAllenov  
 - Linkedin: https://linkedin.com/in/nickallenov-de
 
-## Dmitry Verkhovtsev  
+### Dmitry Verkhovtsev  
 - Email: dimitry.verkhovtsev@gmail.com  
 - Telegram: https://t.me/Gantt_bar  
 - Linkedin:   
