@@ -2,6 +2,7 @@
 # Analysis of public transport accessibility 
 
 ## Project team:  
+- Aleksandra Selezneva - Tech Lead/Project Manager
 - Nikolai Allenov - Data Engineer (Data collection, Creating an ETL process and DWH)
 - Dmitry Verkhovtsev - 
 
@@ -108,6 +109,11 @@ Tools:
 
 
 # Contacts:  
+### Aleksandra Selezneva  
+- Email: a.selezneva@hotmail.com  
+- Telegram: https://t.me/alselezneva   
+- Linkedin: https://www.linkedin.com/in/alselezneva  
+
 ### Nikolai Allenov  
 - Email: AllenovNS@gmail.com  
 - Telegram: https://t.me/NickAllenov  
